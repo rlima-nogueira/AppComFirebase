@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rafa.appcomfirebase">
+
+    <application
+        android:name="com.example.rafa.appcomfirebase.Persistencia.AppComFirebase"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_carro_form"
+        android:label="ConCar"
+        android:roundIcon="@mipmap/ic_carro_form"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Listas.ListaCarros" />
+        <activity android:name=".Listas.ListaInspecao" />
+        <activity android:name=".Listas.ListaUsuarios" />
+        <activity android:name=".Cadastros.CadCarroActivity" />
+        <activity android:name=".Cadastros.InspecaoDataHoraKm" />
+        <activity android:name=".Cadastros.FormularioActivity" />
+        <activity android:name=".Cadastros.ChegadaActivity" />
+        <activity android:name=".Cadastros.CadPergunta" />
+        <activity android:name=".DemonstrativoInspecaoActivity" />
+        <activity android:name=".Cadastros.UsuarioCadActivity"></activity>
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TelaPosLoginActivity"></activity>
+    </application>
+
+</manifest>
